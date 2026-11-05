@@ -13,22 +13,24 @@ const Navbar = () => {
                             <ShoppingCartIcon size={24} color="#000" />
                         </div>
                         <div className="login-singin-Div w-[159px] h-[40px] border border-[1px] border-black flex justify-evenly items-center rounded-[9px]">
-                            <span className="text-[#212121] fontdubai">
-                                ثبت نام
-                            </span>
-                            <span className="text-[#212121]">
-                                |
-                            </span>
-                            <span className="text-[#212121] fontdubai">
-                                ورود
-                            </span>
+                            <a className="flex justify-evenly gap-2.5" href="/pages/login">
+                                <span className="text-[#212121] fontdubai">
+                                    ثبت نام
+                                </span>
+                                <span className="text-[#212121]">
+                                    |
+                                </span>
+                                <span className="text-[#212121] fontdubai">
+                                    ورود
+                                </span>
+                            </a>
                         </div>
                     </div>
                     <div className="search-logo-Div w-[850px] h-[70px]  flex justify-between items-center">
                         <div className="search-Div w-[680px] h-[55px] bg-[#f0f0f0] flex justify-center items-center rounded-[5px]">
                             <div className="input-shoppingIcon-Div flex justify-center items-center">
 
-                                <input className="w-[600px] h-[18px] text-[#696b6c]" type="search" name="" id="" placeholder="محصول، برند یا دسته مورد نظرتان را جستجو کنید" />
+                                <input dir="rtl" className="w-[600px] h-[18px] text-[#696b6c] mr-2" type="search" name="" id="" placeholder="محصول، برند یا دسته مورد نظرتان را جستجو کنید" />
                                 <MagnifyingGlassIcon size={35} color="#ADB1B6" />
                             </div>
                         </div>
@@ -41,7 +43,7 @@ const Navbar = () => {
                 <ul className="flex flex-row justify-start gap-[30px] items-center">
 
                     <li className="flex flex-row justify-center mx-[10px]">
-                        <a className="flex flex-row gap-[10px] fontnian" href="">
+                        <a className="flex flex-row gap-[10px] p-3 hover:bg-[#F1F8FF] rounded-md fontnian" href="">
                             <ListIcon size={24} />
                             دسته بندی محصولات
                         </a>

@@ -141,7 +141,7 @@ const Footer = () => {
                             </div>
                             <div className="flex justify-center items-center w-[76px] h-[76px] bg-white rounded-sm" >
                                 <a href="">
-                                    <img className="w-[60px] h-[60px] fit" src="/Images/marketsfooter/enemad/etehadie.svg" alt="" />
+                                    <img className="w-[50px] h-[60px] fit" src="/Images/marketsfooter/enemad/etehadie.svg" alt="" />
                                 </a>
                             </div>
                             <div className="flex justify-center items-center w-[76px] h-[76px] bg-white rounded-sm" >
@@ -156,7 +156,7 @@ const Footer = () => {
                             </div>
                             <div className="flex justify-center items-center w-[76px] h-[76px] bg-white rounded-sm" >
                                 <a href="">
-                                    <img className="w-[60px] h-[60px]" src="/Images/marketsfooter/enemad/samandehi.webp" alt="" />
+                                    <img className="w-[50px] h-[60px]" src="/Images/marketsfooter/enemad/samandehi.webp" alt="" />
                                 </a>
                             </div>
 
