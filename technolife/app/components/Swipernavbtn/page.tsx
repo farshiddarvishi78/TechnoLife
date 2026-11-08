@@ -4,14 +4,14 @@
 import { useState } from "react"
 import { useSwiper } from "swiper/react"
 
-const Swipernavbtn = () =>{
-const swiper = useSwiper()
-const [activeSlide , SetactiveSlide] = useState(0)
-const totalSlides = swiper.slides.length
-const handlePrev = () => {
-    swiper.slidePrev()
-    SetactiveSlide(swiper.realIndex)
-}
+const Swipernavbtn = () => {
+    const swiper = useSwiper()
+    const [activeSlide, SetactiveSlide] = useState(0)
+    const totalSlides = swiper.slides.length
+    const handlePrev = () => {
+        swiper.slidePrev()
+        SetactiveSlide(swiper.realIndex)
+    }
 
 const handleNext = () =>{
     swiper.slideNext()
@@ -60,8 +60,8 @@ strokeLinejoin="round"
  </div>
 
 
-</div>
-)
+        </div>
+    )
 
 
 }

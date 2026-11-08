@@ -3,7 +3,7 @@ import { CaretUpIcon, InstagramLogoIcon, TelegramLogoIcon, YoutubeLogoIcon } fro
 
 const Footer = () => {
     return (
-        <div>
+        <div className="mt-20">
             <div className="flex bg-gradient-to-r from-[#0079B1] to-[#1B3671] w-[98%] h-[1760px] rounded-3xl mx-auto mb-2">
                 <div className="h-[95%] w-[90%] mx-auto my-auto">
                     <div className=" w-[100%] h-[127px] flex flex-row justify-between items-center">
@@ -141,7 +141,7 @@ const Footer = () => {
                             </div>
                             <div className="flex justify-center items-center w-[76px] h-[76px] bg-white rounded-sm" >
                                 <a href="">
-                                    <img className="w-[60px] h-[60px] fit" src="/Images/marketsfooter/enemad/etehadie.svg" alt="" />
+                                    <img className="w-[50px] h-[60px] fit" src="/Images/marketsfooter/enemad/etehadie.svg" alt="" />
                                 </a>
                             </div>
                             <div className="flex justify-center items-center w-[76px] h-[76px] bg-white rounded-sm" >
@@ -156,7 +156,7 @@ const Footer = () => {
                             </div>
                             <div className="flex justify-center items-center w-[76px] h-[76px] bg-white rounded-sm" >
                                 <a href="">
-                                    <img className="w-[60px] h-[60px]" src="/Images/marketsfooter/enemad/samandehi.webp" alt="" />
+                                    <img className="w-[50px] h-[60px]" src="/Images/marketsfooter/enemad/samandehi.webp" alt="" />
                                 </a>
                             </div>
 
