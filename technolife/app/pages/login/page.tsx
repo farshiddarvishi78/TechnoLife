@@ -34,7 +34,7 @@ const Login = () => {
                 </div>
 
                 <div className="w-[459px] h-[46px] mt-15 mt-40">
-                    <button className="w-full h-[46px] rounded-xl text-xl font-bold fontnian text-white bg-[#223C78]" type="button">ادامه </button>
+                    <button className="w-full h-[46px] rounded-xl text-xl font-bold fontnian text-white bg-[#223C78] cursor-pointer" type="button">ادامه </button>
                 </div>
 
                 <div dir="rtl" className="mt-4 text-sm font-medium">
