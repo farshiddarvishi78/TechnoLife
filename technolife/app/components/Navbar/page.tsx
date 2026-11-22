@@ -14,13 +14,13 @@ const Navbar = () => {
                         </div>
                         <div className="login-singin-Div w-[159px] h-[40px] border border-[1px] border-black flex justify-evenly items-center rounded-[9px]">
                             <a className="flex justify-evenly gap-2.5" href="/pages/login">
-                                <span className="text-[#212121] fontdubai">
+                                <span className="text-[#212121] fontvazir">
                                     ثبت نام
                                 </span>
                                 <span className="text-[#212121]">
                                     |
                                 </span>
-                                <span className="text-[#212121] fontdubai">
+                                <span className="text-[#212121] ">
                                     ورود
                                 </span>
                             </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
                     </li>
 
                     <li className="flex flex-row justify-center mx-[10px]">
-                        <a className="flex flex-row gap-[10px] fontnian" href="">
+                        <a className="flex flex-row gap-[10px] fontvazir" href="">
                             <BasketIcon size={24} />
                             خرید سازمانی
                         </a>

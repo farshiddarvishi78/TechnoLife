@@ -178,7 +178,7 @@ const Circleslide = () => {
         {categorise.map((item, index) => (
           <SwiperSlide key={index} className="!w-[180px]">
             <div className="flex flex-col items-center gap-4">
-              <div className="w-[140px] h-[140px] rounded-full border-2 border-sky-500 flex items-center justify-center p-2 mt-[60px]">
+              <div className="w-[140px] h-[140px] rounded-full border-2 border-sky-500 hover:outline-3 hover:outline-sky-500 flex items-center justify-center p-2 mt-[60px]">
                 <img
                   className="w-full h-full object-contain rounded-full"
                   src={item.image}

@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import Swipernavbtn from "../Swipernavbtn/page";
 const Slider = () => {
   return (
-    <div className="h-[350px] relative">
+    <div className="h-[350px] mt-3 relative">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}
@@ -26,7 +26,7 @@ const Slider = () => {
           disableOnInteraction: false,
         }}
         dir="rtl"
-        className="relative"
+        className="h-full relative"
       >
         <SwiperSlide>
           <img

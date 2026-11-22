@@ -6,12 +6,13 @@ import Circleslide from "./components/Circleslide/page";
 
 export default function Home() {
   return (
-   
+
     <div>
       <Navbar />
       <Slider />
-      <Circleslide />
+
       <main className="mt-10 w-[90%] mx-auto">
+        <Circleslide />
         <ProductCard />
       </main>
       <Footer />

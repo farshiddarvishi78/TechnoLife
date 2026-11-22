@@ -10,6 +10,11 @@
   src: url("/Font/Nian/Nian-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Vazir";
+  src: url("/Font/Vazir/Vazir.ttf");
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -41,6 +46,10 @@ body {
 
 .fontnian {
   font-family: "Nian";
+}
+
+.fontvazir {
+  font-family: "Vazir";
 }
 
 .swiper {
@@ -82,18 +91,19 @@ body {
   position: absolute !important;
   right: 15px !important;
   left: auto !important;
-  top: auto!important;
+  top: auto !important;
   bottom: 25px !important;
 
-  
+
 
   display: flex;
   flex-direction: row !important;
   align-items: center !important;
   gap: 1px;
-transform:  translateY(-80%);
+  transform: translateY(-80%);
   width: auto !important;
 }
+
 .swiper-pagination-bullet {
   display: block !important;
   width: 0.5px !important;
@@ -101,34 +111,39 @@ transform:  translateY(-80%);
   border-radius: 0 !important;
   background: black !important;
   opacity: 0.35 !important;
-  
+
   transition: all 0.3s ease !important;
 }
+
 .swiper-pagination-bullet-active {
   height: 15px !important;
   background: white !important;
   opacity: 1 !important;
 }
-.categorySwiper .swiper-button-next svg{
-width: 35px;
-height: 35px;
-background: #f3f4f6;
-border-radius: 50%;
-color: #444;
-} 
-.categorySwiper .swiper-button-prev svg{
-width: 35px;
-height: 35px;
-background: #f3f4f6;
-border-radius: 50%;
-color: #444;
+
+.categorySwiper .swiper-button-next svg {
+  width: 35px;
+  height: 35px;
+  background: #f3f4f6;
+  border-radius: 50%;
+  color: #444;
+}
+
+.categorySwiper .swiper-button-prev svg {
+  width: 35px;
+  height: 35px;
+  background: #f3f4f6;
+  border-radius: 50%;
+  color: #444;
 
 }
-.categorySwiper .swiper-button-next::after{
-font-size: 10px ;
+
+.categorySwiper .swiper-button-next::after {
+  font-size: 10px;
 
 }
-.categorySwiper .swiper-button-perv::after{
+
+.categorySwiper .swiper-button-perv::after {
   font-size: 10px;
 
 }
